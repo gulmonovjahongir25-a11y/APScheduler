@@ -8,7 +8,7 @@ from google.genai import types as genai_types
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 
 TELEGRAM_BOT_TOKEN = "9181868681:AAGhzLP4NjEw_Xrm49sQeyR4i6pKamgM6do"
-GEMINI_API_KEY = "AQ.Ab8RN6JkDCAaO3mtXbh6JJyUuwbgi6rM6ju38GuO119wUpF1dw"
+GEMINI_API_KEY = "AQ.Ab8RN6LTdHDcpAy55mqiYm40OKawerIr4JpPmVWeGAA2Cay3cw"
 
 client = genai.Client(api_key=GEMINI_API_KEY)
 bot = Bot(token=TELEGRAM_BOT_TOKEN)
